@@ -32,10 +32,7 @@
             <h1>Koşullar</h1>
 
             <p>
-              Bu web sitesi tamamen reklam amaçlıdır ve <a href="https://shopier.com/easytech">Shopier.com/easytech</a> url adresli ve <a href="https://shopier.com">Shopier</a>'a Kayıtlı <a href="https://shopier.com/easytech">EasyTech</a> mağzasına aittir.<br> Bu sitenin tüm koşulları <span>"Alışveriş Güvenliği, Ön Bilgilendirme Formu,Mesafeli Satış Sözleşmesi,Kişisel Verilerin Korunması" </span>
-              tamamen Shopier alt yapısı ile sağlanıyor. <br> Bu web sitesinde hiçbir kullanıcı verisi saklanmamaktadır. <br>
-              Alışveriş Güvenliği, Ön Bilgilendirme Formu,Mesafeli Satış Sözleşmesi,Kişisel Verilerin Korunması bilgileri için <a href="https://shopier.com/easytech">Shopier.com/easytech</a> Sayfasında en altta yer alan Koşullar başlığı altında bulabilirsiniz.
-             <br><br>
+              --
              Bizi teşekkür ederiz...
             </p>
     </div>
