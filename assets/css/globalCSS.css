@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    width: 100%;
+
+}
+header .headerTop{
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+}
+header .headerBottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+header .headerBottom img{
+    margin-bottom: 20px;
+    width: 2000px;
+    height: 100px;
+}
+header .headerBottom ul{
+    display: flex;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+header .headerBottom ul li{
+    display: flex;
+    padding:  0 20px;
+    align-items: center;
+    justify-content: center;
+}
+header .headerBottom ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-bottom: 2px solid rgba(75, 75, 75, 0);
+
+}
+header .headerBottom ul li a:hover{
+   /*background-color: rgb(75, 75, 75);*/ 
+    color: #fff;
+    /*border-radius: 7px;*/  
+    padding: 10px 15px;
+    border-bottom: 2px solid rgb(75, 75, 75);
+}
+/* ana Ekran */
+.anaEkran {
+    width: 100%;
+}
+.anaEkran .intro{
+    width: 100%;
+    height: auto;
+}
+.anaEkran .intro img{
+    width:  100%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resims .sol img{
+    border-radius: 8px;
+
+}
+.resims .sag img{
+    border-radius: 8px;
+    width: 250px;
+    height: auto;
+}
+.guvenli{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    
+  }
+  .guvenli img{
+    margin: 10px 0;
+  }
+  .detaySag p {
+
+    font-size: 10px;
+  }
+  .detay img{
+    max-width: 280px;
+  }
+  .detaySag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .detaySag h2{
+    margin-top: 40px;
+  }
+/* Footer */
+footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer h2{
+    font-size: 20px;
+}
+    footer .socialMedia img {
+        width: 200px;
+    }
+
+}
+  
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    height: 10%;
+}
+header .headerTop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background : #3260a8;
+    height: 50px;
+}
+header .headerBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+header .headerBottom img{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+header .headerBottom ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+header .headerBottom ul li{
+    display: flex;
+    padding:  0 20px;
+    align-items: center;
+    justify-content: center;
+}
+header .headerBottom ul li a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(75, 75, 75, 0);
+
+}
+header .headerBottom ul li a:hover{
+   /*background-color: rgb(75, 75, 75);*/ 
+    color: #000;
+  /*border-radius: 7px;*/  
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-bottom: 2px solid rgb(75, 75, 75);
+}
+
+/* Ana Ekran */
+.anaEkran{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    height: 450px;
+
+}
+.anaEkran .intro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anaEkran .intro img{
+    width: 80% ;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.anaEkran #altGorsel img{
+    width: 100px;
+    height: 100px;
+}
+#slideshow {
+	align-items:center;
+	display:flex;
+	justify-content:center;
+    position: relative;
+  }
+  
+ .resims{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.resims .sol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.resims .sol img{
+
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+}
+.resims .sag img{
+    border-radius: 10px;
+    max-width: 550px;
+    height: auto;
+}
+  .guvenli{
+    width: 100%;
+    min-height: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background : #000000;
+  }
+  .guvenli img{
+    width: 220px;
+    border-radius: 10px;
+  }
+  .urunler{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ .urunler .urun{
+    width: 200px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .urun a h2{
+    font-weight: 500;
+    font-size: 18px;
+    overflow: hidden; /* taşacak kısımları gizle. */
+    white-space: nowrap; /* alt satırı gösterme, alt satıra inme. */
+    text-overflow: ellipsis;
+  }
+  .urun a p{
+    font-weight: 1000;
+    font-size: 25px;
+  }
+  .urun a img{
+    width: 95%;
+    
+  }
+  .urun a:hover{
+    filter: opacity(80%);
+  }
+  #urun{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+
+  }
+  #satinal{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+  }
+  #satinal:hover{
+    filter: opacity(60%);
+  }
+
+  .detay{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 0;
+    
+  }
+  .detay img{
+    min-width: 280;
+    width: 450px;
+  }
+  .detay .detaySag{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 400px;
+
+  }
+  .detaySag h2{
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .detaySag h1{
+    padding: 0 0 50px 0;
+  }
+  .detaySag a{
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .detaySag a:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    color: #000;
+    transition: 0.2s;
+  }
+  .detaySag{
+    max-width: 300px ;
+
+  }
+  .detaySag p {
+    width: 280px;
+    height: auto;
+    margin-top: 30px;
+    font-size: 14px;
+    word-wrap:break-word;
+  }
+/* Footer */
+footer {
+    border-top: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+
+}
+    footer h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    footer .socialMedia{
+        display: flex;
+        flex-direction: column;;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .socialMedia a img {
+        width: 25px;
+        
+        
+    }
+    footer .socialMedia a:hover{
+        filter: invert(70%);
+        transition: 0.2s;
+    }
+    footer .satisKanallari{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .satisKanallari img {
+        width: 100px;
+        height: 28px;
+    
+    }
+    footer .noCopy{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.icerik{
+    width: 100%;
+    height: 615px;
+}
+
+.rules{
+    width: 100%;
+    max-height: 300px;
+    height: 90px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+.rules h2{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.rules ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rules ul li{
+    list-style-type: none;
+}
+.rules ul li a{
+    font-weight: 700;
+    font-size: 15px;
+}
+.rules ul li a:hover{
+    color: #113d83;
+    text-decoration: underline;
+}
+.kosullar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:  300px;
+}
+.kosullar h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+.kosullar a{
+    font-weight: bold;
+    color: #3260a8;
+    text-decoration: underline;
+}
+.kosullar p{
+    max-width: 1000px;
+    min-width: 300px;
+    align-items: center;
+}
+.kosullar p span{
+  font-weight: bold;
+  text-decoration: underline;
+}
