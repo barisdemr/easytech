@@ -48,7 +48,7 @@ include("baglanti.php");
     <div class='detaySag'>
 		<h2>".$easytech["urun_adi"]."</h2>
 		<h1>".$easytech["urun_fiyat"]."₺</h1>
-        <a href='https://shopier.com/".$easytech["urun_link"]."'>SATIN AL</a>
+        <a href='#".$easytech["urun_link"]."'>SATIN AL</a>
 		<p>".$easytech["urun_aciklamasi"]."</p>
 
 	</div></div>
@@ -66,7 +66,7 @@ include("baglanti.php");
         <footer>
         <div class="socialMedia">
           <h3>Sosyal Medya</h3>
-      <a href="https://www.instagram.com/easytechtr/">  <img src="assets/image/insta.png" alt="" /></a>
+      <a href="https://www.instagram.com/#/">  <img src="assets/image/insta.png" alt="" /></a>
         </div>
         <div class="noCopy">
           <h2>&#169; 2023 EasyTech</h2>
